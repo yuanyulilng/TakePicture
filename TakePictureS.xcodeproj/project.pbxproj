@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06BFED61DCB0110F9CB29096 /* libPods-TakePictureS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A565CAFF67188FADB2426C8 /* libPods-TakePictureS.a */; };
+		FA0C2C0E223921CD0021C56B /* UIView+Category的.m in Sources */ = {isa = PBXBuildFile; fileRef = FA0C2C0C223921CD0021C56B /* UIView+Category的.m */; };
+		FA1555CA2238FC17000AC713 /* GroupFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1555C92238FC17000AC713 /* GroupFilter.m */; };
+		FA21EF7F2239453500688477 /* GPUImageBeautifyFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21EF7E2239453500688477 /* GPUImageBeautifyFilter.m */; };
+		FA46BD48223A8D5400E9117E /* photoShutter2.caf in Resources */ = {isa = PBXBuildFile; fileRef = FA46BD47223A8D5400E9117E /* photoShutter2.caf */; };
+		FA67912722369753007046DA /* RatioView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA67911E22369753007046DA /* RatioView.m */; };
+		FA7C322D22380C3B0055852E /* IFBrannanFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C31FD22380C3B0055852E /* IFBrannanFilter.m */; };
+		FA7C322E22380C3B0055852E /* IF1977Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C320022380C3B0055852E /* IF1977Filter.m */; };
+		FA7C322F22380C3B0055852E /* IFWaldenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C320422380C3B0055852E /* IFWaldenFilter.m */; };
+		FA7C323022380C3B0055852E /* IFSierraFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C320522380C3B0055852E /* IFSierraFilter.m */; };
+		FA7C323122380C3B0055852E /* IFEarlybirdFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C320622380C3B0055852E /* IFEarlybirdFilter.m */; };
+		FA7C323222380C3B0055852E /* IFRiseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C320722380C3B0055852E /* IFRiseFilter.m */; };
+		FA7C323322380C3B0055852E /* GPUImage.InstagramFilter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FA7C320922380C3B0055852E /* GPUImage.InstagramFilter.bundle */; };
+		FA7C323422380C3B0055852E /* IFImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C320A22380C3B0055852E /* IFImageFilter.m */; };
+		FA7C323522380C3B0055852E /* IFHudsonFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C320B22380C3B0055852E /* IFHudsonFilter.m */; };
+		FA7C323622380C3B0055852E /* IFValenciaFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C320D22380C3B0055852E /* IFValenciaFilter.m */; };
+		FA7C323722380C3B0055852E /* IFToasterFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C320E22380C3B0055852E /* IFToasterFilter.m */; };
+		FA7C323822380C3B0055852E /* IFInkwellFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C321022380C3B0055852E /* IFInkwellFilter.m */; };
+		FA7C323922380C3B0055852E /* IFAmaroFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C321322380C3B0055852E /* IFAmaroFilter.m */; };
+		FA7C323A22380C3B0055852E /* IFXproIIFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C321422380C3B0055852E /* IFXproIIFilter.m */; };
+		FA7C323B22380C3B0055852E /* IFLordKelvinFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C321A22380C3B0055852E /* IFLordKelvinFilter.m */; };
+		FA7C323C22380C3B0055852E /* IFLomofiFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C321B22380C3B0055852E /* IFLomofiFilter.m */; };
+		FA7C323D22380C3B0055852E /* IFSutroFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C321D22380C3B0055852E /* IFSutroFilter.m */; };
+		FA7C323E22380C3B0055852E /* IFHefeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C322022380C3B0055852E /* IFHefeFilter.m */; };
+		FA7C323F22380C3B0055852E /* IFNormalFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C322222380C3B0055852E /* IFNormalFilter.m */; };
+		FA7C324022380C3B0055852E /* IFNashvilleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FA7C322322380C3B0055852E /* IFNashvilleFilter.m */; };
+		FAB98C5A22357A0E001256B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB98C5922357A0E001256B3 /* AppDelegate.m */; };
+		FAB98C5D22357A0E001256B3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB98C5C22357A0E001256B3 /* ViewController.m */; };
+		FAB98C6022357A0E001256B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB98C5E22357A0E001256B3 /* Main.storyboard */; };
+		FAB98C6222357A0F001256B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB98C6122357A0F001256B3 /* Assets.xcassets */; };
+		FAB98C6522357A0F001256B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB98C6322357A0F001256B3 /* LaunchScreen.storyboard */; };
+		FAB98C6822357A0F001256B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB98C6722357A0F001256B3 /* main.m */; };
+		FABD322422397B1900E4ACE1 /* GPUImageSixInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FABD322322397B1900E4ACE1 /* GPUImageSixInputFilter.m */; };
+		FABD322922397B3E00E4ACE1 /* GPUImageFourInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FABD322622397B3E00E4ACE1 /* GPUImageFourInputFilter.m */; };
+		FABD322A22397B3E00E4ACE1 /* GPUImageFiveInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FABD322722397B3E00E4ACE1 /* GPUImageFiveInputFilter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A565CAFF67188FADB2426C8 /* libPods-TakePictureS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TakePictureS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		731FD04B1DA3C4B6548057DD /* Pods-TakePictureS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakePictureS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakePictureS/Pods-TakePictureS.debug.xcconfig"; sourceTree = "<group>"; };
+		84F8792F0CDB31B77B39F1D0 /* Pods-TakePictureS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakePictureS.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakePictureS/Pods-TakePictureS.release.xcconfig"; sourceTree = "<group>"; };
+		FA0C2C0C223921CD0021C56B /* UIView+Category的.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category的.m"; sourceTree = "<group>"; };
+		FA0C2C0D223921CD0021C56B /* UIView+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		FA1555C82238FC17000AC713 /* GroupFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupFilter.h; sourceTree = "<group>"; };
+		FA1555C92238FC17000AC713 /* GroupFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupFilter.m; sourceTree = "<group>"; };
+		FA21EF7D2239453500688477 /* GPUImageBeautifyFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageBeautifyFilter.h; sourceTree = "<group>"; };
+		FA21EF7E2239453500688477 /* GPUImageBeautifyFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageBeautifyFilter.m; sourceTree = "<group>"; };
+		FA46BD47223A8D5400E9117E /* photoShutter2.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = photoShutter2.caf; sourceTree = "<group>"; };
+		FA67911E22369753007046DA /* RatioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatioView.m; sourceTree = "<group>"; };
+		FA67912022369753007046DA /* RatioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatioView.h; sourceTree = "<group>"; };
+		FA7C31FD22380C3B0055852E /* IFBrannanFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFBrannanFilter.m; sourceTree = "<group>"; };
+		FA7C31FE22380C3B0055852E /* IFXproIIFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFXproIIFilter.h; sourceTree = "<group>"; };
+		FA7C31FF22380C3B0055852E /* IFAmaroFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFAmaroFilter.h; sourceTree = "<group>"; };
+		FA7C320022380C3B0055852E /* IF1977Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IF1977Filter.m; sourceTree = "<group>"; };
+		FA7C320122380C3B0055852E /* InstaFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstaFilters.h; sourceTree = "<group>"; };
+		FA7C320222380C3B0055852E /* IFLomofiFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLomofiFilter.h; sourceTree = "<group>"; };
+		FA7C320322380C3B0055852E /* IFLordKelvinFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFLordKelvinFilter.h; sourceTree = "<group>"; };
+		FA7C320422380C3B0055852E /* IFWaldenFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFWaldenFilter.m; sourceTree = "<group>"; };
+		FA7C320522380C3B0055852E /* IFSierraFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFSierraFilter.m; sourceTree = "<group>"; };
+		FA7C320622380C3B0055852E /* IFEarlybirdFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFEarlybirdFilter.m; sourceTree = "<group>"; };
+		FA7C320722380C3B0055852E /* IFRiseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFRiseFilter.m; sourceTree = "<group>"; };
+		FA7C320822380C3B0055852E /* IFHefeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFHefeFilter.h; sourceTree = "<group>"; };
+		FA7C320922380C3B0055852E /* GPUImage.InstagramFilter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GPUImage.InstagramFilter.bundle; sourceTree = "<group>"; };
+		FA7C320A22380C3B0055852E /* IFImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFImageFilter.m; sourceTree = "<group>"; };
+		FA7C320B22380C3B0055852E /* IFHudsonFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFHudsonFilter.m; sourceTree = "<group>"; };
+		FA7C320C22380C3B0055852E /* IFSutroFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFSutroFilter.h; sourceTree = "<group>"; };
+		FA7C320D22380C3B0055852E /* IFValenciaFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFValenciaFilter.m; sourceTree = "<group>"; };
+		FA7C320E22380C3B0055852E /* IFToasterFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFToasterFilter.m; sourceTree = "<group>"; };
+		FA7C320F22380C3B0055852E /* IFNashvilleFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFNashvilleFilter.h; sourceTree = "<group>"; };
+		FA7C321022380C3B0055852E /* IFInkwellFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFInkwellFilter.m; sourceTree = "<group>"; };
+		FA7C321122380C3B0055852E /* IFNormalFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFNormalFilter.h; sourceTree = "<group>"; };
+		FA7C321222380C3B0055852E /* IF1977Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IF1977Filter.h; sourceTree = "<group>"; };
+		FA7C321322380C3B0055852E /* IFAmaroFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFAmaroFilter.m; sourceTree = "<group>"; };
+		FA7C321422380C3B0055852E /* IFXproIIFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFXproIIFilter.m; sourceTree = "<group>"; };
+		FA7C321522380C3B0055852E /* IFBrannanFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFBrannanFilter.h; sourceTree = "<group>"; };
+		FA7C321622380C3B0055852E /* IFEarlybirdFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFEarlybirdFilter.h; sourceTree = "<group>"; };
+		FA7C321722380C3B0055852E /* IFRiseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFRiseFilter.h; sourceTree = "<group>"; };
+		FA7C321822380C3B0055852E /* IFSierraFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFSierraFilter.h; sourceTree = "<group>"; };
+		FA7C321922380C3B0055852E /* IFWaldenFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFWaldenFilter.h; sourceTree = "<group>"; };
+		FA7C321A22380C3B0055852E /* IFLordKelvinFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFLordKelvinFilter.m; sourceTree = "<group>"; };
+		FA7C321B22380C3B0055852E /* IFLomofiFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFLomofiFilter.m; sourceTree = "<group>"; };
+		FA7C321C22380C3B0055852E /* IFValenciaFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFValenciaFilter.h; sourceTree = "<group>"; };
+		FA7C321D22380C3B0055852E /* IFSutroFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFSutroFilter.m; sourceTree = "<group>"; };
+		FA7C321E22380C3B0055852E /* IFHudsonFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFHudsonFilter.h; sourceTree = "<group>"; };
+		FA7C321F22380C3B0055852E /* IFImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFImageFilter.h; sourceTree = "<group>"; };
+		FA7C322022380C3B0055852E /* IFHefeFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFHefeFilter.m; sourceTree = "<group>"; };
+		FA7C322122380C3B0055852E /* IFInkwellFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFInkwellFilter.h; sourceTree = "<group>"; };
+		FA7C322222380C3B0055852E /* IFNormalFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFNormalFilter.m; sourceTree = "<group>"; };
+		FA7C322322380C3B0055852E /* IFNashvilleFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFNashvilleFilter.m; sourceTree = "<group>"; };
+		FA7C322422380C3B0055852E /* IFToasterFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFToasterFilter.h; sourceTree = "<group>"; };
+		FAB98C5522357A0E001256B3 /* TakePictureS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakePictureS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB98C5822357A0E001256B3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAB98C5922357A0E001256B3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAB98C5B22357A0E001256B3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAB98C5C22357A0E001256B3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAB98C5F22357A0E001256B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAB98C6122357A0F001256B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB98C6422357A0F001256B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAB98C6622357A0F001256B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB98C6722357A0F001256B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FABD322222397B1900E4ACE1 /* GPUImageSixInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageSixInputFilter.h; sourceTree = "<group>"; };
+		FABD322322397B1900E4ACE1 /* GPUImageSixInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageSixInputFilter.m; sourceTree = "<group>"; };
+		FABD322522397B3D00E4ACE1 /* GPUImageFiveInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFiveInputFilter.h; sourceTree = "<group>"; };
+		FABD322622397B3E00E4ACE1 /* GPUImageFourInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFourInputFilter.m; sourceTree = "<group>"; };
+		FABD322722397B3E00E4ACE1 /* GPUImageFiveInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFiveInputFilter.m; sourceTree = "<group>"; };
+		FABD322822397B3E00E4ACE1 /* GPUImageFourInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFourInputFilter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB98C5222357A0E001256B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BFED61DCB0110F9CB29096 /* libPods-TakePictureS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		118731B183325259EC5FA98E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				731FD04B1DA3C4B6548057DD /* Pods-TakePictureS.debug.xcconfig */,
+				84F8792F0CDB31B77B39F1D0 /* Pods-TakePictureS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47286BECEA46231FC9B0D64E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A565CAFF67188FADB2426C8 /* libPods-TakePictureS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA679115223696E4007046DA /* views */ = {
+			isa = PBXGroup;
+			children = (
+				FA46BD47223A8D5400E9117E /* photoShutter2.caf */,
+				FA0C2C0D223921CD0021C56B /* UIView+Category.h */,
+				FA0C2C0C223921CD0021C56B /* UIView+Category的.m */,
+				FA67912022369753007046DA /* RatioView.h */,
+				FA67911E22369753007046DA /* RatioView.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		FA7C31FC22380C3B0055852E /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				FABD322522397B3D00E4ACE1 /* GPUImageFiveInputFilter.h */,
+				FABD322722397B3E00E4ACE1 /* GPUImageFiveInputFilter.m */,
+				FABD322822397B3E00E4ACE1 /* GPUImageFourInputFilter.h */,
+				FABD322622397B3E00E4ACE1 /* GPUImageFourInputFilter.m */,
+				FABD322222397B1900E4ACE1 /* GPUImageSixInputFilter.h */,
+				FABD322322397B1900E4ACE1 /* GPUImageSixInputFilter.m */,
+				FA21EF7D2239453500688477 /* GPUImageBeautifyFilter.h */,
+				FA21EF7E2239453500688477 /* GPUImageBeautifyFilter.m */,
+				FA7C31FD22380C3B0055852E /* IFBrannanFilter.m */,
+				FA7C31FE22380C3B0055852E /* IFXproIIFilter.h */,
+				FA7C31FF22380C3B0055852E /* IFAmaroFilter.h */,
+				FA7C320022380C3B0055852E /* IF1977Filter.m */,
+				FA7C320122380C3B0055852E /* InstaFilters.h */,
+				FA7C320222380C3B0055852E /* IFLomofiFilter.h */,
+				FA7C320322380C3B0055852E /* IFLordKelvinFilter.h */,
+				FA7C320422380C3B0055852E /* IFWaldenFilter.m */,
+				FA7C320522380C3B0055852E /* IFSierraFilter.m */,
+				FA7C320622380C3B0055852E /* IFEarlybirdFilter.m */,
+				FA7C320722380C3B0055852E /* IFRiseFilter.m */,
+				FA7C320822380C3B0055852E /* IFHefeFilter.h */,
+				FA7C320922380C3B0055852E /* GPUImage.InstagramFilter.bundle */,
+				FA7C320A22380C3B0055852E /* IFImageFilter.m */,
+				FA7C320B22380C3B0055852E /* IFHudsonFilter.m */,
+				FA7C320C22380C3B0055852E /* IFSutroFilter.h */,
+				FA7C320D22380C3B0055852E /* IFValenciaFilter.m */,
+				FA7C320E22380C3B0055852E /* IFToasterFilter.m */,
+				FA7C320F22380C3B0055852E /* IFNashvilleFilter.h */,
+				FA7C321022380C3B0055852E /* IFInkwellFilter.m */,
+				FA7C321122380C3B0055852E /* IFNormalFilter.h */,
+				FA7C321222380C3B0055852E /* IF1977Filter.h */,
+				FA7C321322380C3B0055852E /* IFAmaroFilter.m */,
+				FA7C321422380C3B0055852E /* IFXproIIFilter.m */,
+				FA7C321522380C3B0055852E /* IFBrannanFilter.h */,
+				FA7C321622380C3B0055852E /* IFEarlybirdFilter.h */,
+				FA7C321722380C3B0055852E /* IFRiseFilter.h */,
+				FA7C321822380C3B0055852E /* IFSierraFilter.h */,
+				FA7C321922380C3B0055852E /* IFWaldenFilter.h */,
+				FA7C321A22380C3B0055852E /* IFLordKelvinFilter.m */,
+				FA7C321B22380C3B0055852E /* IFLomofiFilter.m */,
+				FA7C321C22380C3B0055852E /* IFValenciaFilter.h */,
+				FA7C321D22380C3B0055852E /* IFSutroFilter.m */,
+				FA7C321E22380C3B0055852E /* IFHudsonFilter.h */,
+				FA7C321F22380C3B0055852E /* IFImageFilter.h */,
+				FA7C322022380C3B0055852E /* IFHefeFilter.m */,
+				FA7C322122380C3B0055852E /* IFInkwellFilter.h */,
+				FA7C322222380C3B0055852E /* IFNormalFilter.m */,
+				FA7C322322380C3B0055852E /* IFNashvilleFilter.m */,
+				FA7C322422380C3B0055852E /* IFToasterFilter.h */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		FAB98C4C22357A0E001256B3 = {
+			isa = PBXGroup;
+			children = (
+				FAB98C5722357A0E001256B3 /* TakePictureS */,
+				FAB98C5622357A0E001256B3 /* Products */,
+				118731B183325259EC5FA98E /* Pods */,
+				47286BECEA46231FC9B0D64E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB98C5622357A0E001256B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB98C5522357A0E001256B3 /* TakePictureS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB98C5722357A0E001256B3 /* TakePictureS */ = {
+			isa = PBXGroup;
+			children = (
+				FA7C31FC22380C3B0055852E /* Filters */,
+				FA679115223696E4007046DA /* views */,
+				FAB98C5822357A0E001256B3 /* AppDelegate.h */,
+				FAB98C5922357A0E001256B3 /* AppDelegate.m */,
+				FAB98C5B22357A0E001256B3 /* ViewController.h */,
+				FAB98C5C22357A0E001256B3 /* ViewController.m */,
+				FA1555C82238FC17000AC713 /* GroupFilter.h */,
+				FA1555C92238FC17000AC713 /* GroupFilter.m */,
+				FAB98C5E22357A0E001256B3 /* Main.storyboard */,
+				FAB98C6122357A0F001256B3 /* Assets.xcassets */,
+				FAB98C6322357A0F001256B3 /* LaunchScreen.storyboard */,
+				FAB98C6622357A0F001256B3 /* Info.plist */,
+				FAB98C6722357A0F001256B3 /* main.m */,
+			);
+			path = TakePictureS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB98C5422357A0E001256B3 /* TakePictureS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB98C6B22357A0F001256B3 /* Build configuration list for PBXNativeTarget "TakePictureS" */;
+			buildPhases = (
+				71E4D85A7162C743654E8D54 /* [CP] Check Pods Manifest.lock */,
+				FAB98C5122357A0E001256B3 /* Sources */,
+				FAB98C5222357A0E001256B3 /* Frameworks */,
+				FAB98C5322357A0E001256B3 /* Resources */,
+				7F988E5FBA16DB748C4F3902 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakePictureS;
+			productName = TakePictureS;
+			productReference = FAB98C5522357A0E001256B3 /* TakePictureS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB98C4D22357A0E001256B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "袁玉灵";
+				TargetAttributes = {
+					FAB98C5422357A0E001256B3 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = FAB98C5022357A0E001256B3 /* Build configuration list for PBXProject "TakePictureS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB98C4C22357A0E001256B3;
+			productRefGroup = FAB98C5622357A0E001256B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB98C5422357A0E001256B3 /* TakePictureS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB98C5322357A0E001256B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA46BD48223A8D5400E9117E /* photoShutter2.caf in Resources */,
+				FAB98C6522357A0F001256B3 /* LaunchScreen.storyboard in Resources */,
+				FAB98C6222357A0F001256B3 /* Assets.xcassets in Resources */,
+				FA7C323322380C3B0055852E /* GPUImage.InstagramFilter.bundle in Resources */,
+				FAB98C6022357A0E001256B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71E4D85A7162C743654E8D54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TakePictureS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F988E5FBA16DB748C4F3902 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TakePictureS/Pods-TakePictureS-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TakePictureS/Pods-TakePictureS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB98C5122357A0E001256B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7C323122380C3B0055852E /* IFEarlybirdFilter.m in Sources */,
+				FA7C323222380C3B0055852E /* IFRiseFilter.m in Sources */,
+				FA7C323022380C3B0055852E /* IFSierraFilter.m in Sources */,
+				FABD322422397B1900E4ACE1 /* GPUImageSixInputFilter.m in Sources */,
+				FA0C2C0E223921CD0021C56B /* UIView+Category的.m in Sources */,
+				FA7C322E22380C3B0055852E /* IF1977Filter.m in Sources */,
+				FA1555CA2238FC17000AC713 /* GroupFilter.m in Sources */,
+				FA7C323B22380C3B0055852E /* IFLordKelvinFilter.m in Sources */,
+				FA7C323A22380C3B0055852E /* IFXproIIFilter.m in Sources */,
+				FA7C323E22380C3B0055852E /* IFHefeFilter.m in Sources */,
+				FA7C323D22380C3B0055852E /* IFSutroFilter.m in Sources */,
+				FA67912722369753007046DA /* RatioView.m in Sources */,
+				FABD322A22397B3E00E4ACE1 /* GPUImageFiveInputFilter.m in Sources */,
+				FA7C323522380C3B0055852E /* IFHudsonFilter.m in Sources */,
+				FA7C322D22380C3B0055852E /* IFBrannanFilter.m in Sources */,
+				FAB98C5D22357A0E001256B3 /* ViewController.m in Sources */,
+				FA7C322F22380C3B0055852E /* IFWaldenFilter.m in Sources */,
+				FA7C323F22380C3B0055852E /* IFNormalFilter.m in Sources */,
+				FA7C323622380C3B0055852E /* IFValenciaFilter.m in Sources */,
+				FA7C323422380C3B0055852E /* IFImageFilter.m in Sources */,
+				FA7C323C22380C3B0055852E /* IFLomofiFilter.m in Sources */,
+				FA7C323922380C3B0055852E /* IFAmaroFilter.m in Sources */,
+				FABD322922397B3E00E4ACE1 /* GPUImageFourInputFilter.m in Sources */,
+				FA7C323722380C3B0055852E /* IFToasterFilter.m in Sources */,
+				FA7C323822380C3B0055852E /* IFInkwellFilter.m in Sources */,
+				FA21EF7F2239453500688477 /* GPUImageBeautifyFilter.m in Sources */,
+				FAB98C6822357A0F001256B3 /* main.m in Sources */,
+				FAB98C5A22357A0E001256B3 /* AppDelegate.m in Sources */,
+				FA7C324022380C3B0055852E /* IFNashvilleFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB98C5E22357A0E001256B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB98C5F22357A0E001256B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAB98C6322357A0F001256B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB98C6422357A0F001256B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB98C6922357A0F001256B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAB98C6A22357A0F001256B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB98C6C22357A0F001256B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731FD04B1DA3C4B6548057DD /* Pods-TakePictureS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N3472QTVX;
+				INFOPLIST_FILE = TakePictureS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YuanYuLing.TakePictureS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAB98C6D22357A0F001256B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F8792F0CDB31B77B39F1D0 /* Pods-TakePictureS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7N3472QTVX;
+				INFOPLIST_FILE = TakePictureS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = YuanYuLing.TakePictureS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB98C5022357A0E001256B3 /* Build configuration list for PBXProject "TakePictureS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB98C6922357A0F001256B3 /* Debug */,
+				FAB98C6A22357A0F001256B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB98C6B22357A0F001256B3 /* Build configuration list for PBXNativeTarget "TakePictureS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB98C6C22357A0F001256B3 /* Debug */,
+				FAB98C6D22357A0F001256B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB98C4D22357A0E001256B3 /* Project object */;
+}

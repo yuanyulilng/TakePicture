@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6c6-6x-dkE" customClass="GPUImageView">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.9224516749382019" green="0.71045023202896118" blue="0.60775953531265259" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="647" id="6GE-VB-NKW"/>
+                                    <constraint firstAttribute="width" constant="375" id="QhV-Aj-bm2"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdP-WE-JJf">
+                                <rect key="frame" x="109" y="45" width="37" height="30"/>
+                                <fontDescription key="fontDescription" name=".PingFangSC-Regular" family=".PingFang SC" pointSize="18"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="titleShadowOffset" width="2" height="2"/>
+                                <state key="normal" title="比例">
+                                    <color key="titleColor" red="1" green="0.1207427046" blue="0.073471094129999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="biliButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zC4-OS-cqr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8SG-ge-7PG">
+                                <rect key="frame" x="186" y="43" width="37" height="34"/>
+                                <state key="normal" title="自动">
+                                    <color key="titleColor" red="1" green="0.1207427046" blue="0.073471094129999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="shangguangdengButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ajA-HW-tjF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFv-cE-66r">
+                                <rect key="frame" x="263" y="43" width="92" height="34"/>
+                                <state key="normal" title="前后摄像头">
+                                    <color key="titleColor" red="1" green="0.1207427046" blue="0.073471094129999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="shexiangtouButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P46-xY-Xlt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CTt-Sw-JHY">
+                                <rect key="frame" x="158" y="460" width="59" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <state key="normal" title="照相">
+                                    <color key="titleColor" red="1" green="0.1207427046" blue="0.073471094129999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="xiangjiButtong:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FCU-Gh-RGB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqh-A8-Yb4">
+                                <rect key="frame" x="61" y="466.5" width="37" height="34"/>
+                                <state key="normal" title="滤镜">
+                                    <color key="titleColor" red="1" green="0.1207427046" blue="0.073471094129999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="lvjingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MHE-4X-jFa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="CTt-Sw-JHY" firstAttribute="centerY" secondItem="Rqh-A8-Yb4" secondAttribute="centerY" id="5fG-il-40c"/>
+                            <constraint firstItem="fdP-WE-JJf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="HdQ-pN-nmE"/>
+                            <constraint firstItem="6c6-6x-dkE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JKd-Nb-91f"/>
+                            <constraint firstItem="CTt-Sw-JHY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QG3-dc-mwC"/>
+                            <constraint firstItem="6c6-6x-dkE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Rbl-fY-ggg"/>
+                            <constraint firstItem="NFv-cE-66r" firstAttribute="leading" secondItem="8SG-ge-7PG" secondAttribute="trailing" constant="40" id="cbT-QM-bDL"/>
+                            <constraint firstItem="8SG-ge-7PG" firstAttribute="centerY" secondItem="fdP-WE-JJf" secondAttribute="centerY" id="cdY-vF-OmF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CTt-Sw-JHY" secondAttribute="bottom" constant="160" id="e7p-KN-MGh"/>
+                            <constraint firstItem="CTt-Sw-JHY" firstAttribute="leading" secondItem="Rqh-A8-Yb4" secondAttribute="trailing" constant="60" id="ply-yA-JOb"/>
+                            <constraint firstItem="8SG-ge-7PG" firstAttribute="leading" secondItem="fdP-WE-JJf" secondAttribute="trailing" constant="40" id="uqM-6a-wgi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NFv-cE-66r" secondAttribute="trailing" constant="20" id="uwZ-Qi-qa1"/>
+                            <constraint firstItem="NFv-cE-66r" firstAttribute="centerY" secondItem="fdP-WE-JJf" secondAttribute="centerY" id="xxo-gf-04d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="biliButton" destination="fdP-WE-JJf" id="OXB-WU-zCy"/>
+                        <outlet property="lvjingButton" destination="Rqh-A8-Yb4" id="aAe-nb-UNO"/>
+                        <outlet property="shanguangdengButton" destination="8SG-ge-7PG" id="U5s-QV-18k"/>
+                        <outlet property="shexiangtouButton" destination="NFv-cE-66r" id="9d4-UT-R8G"/>
+                        <outlet property="yulanView" destination="6c6-6x-dkE" id="I7c-iF-sPt"/>
+                        <outlet property="yulanViewHeight" destination="6GE-VB-NKW" id="7V8-SX-Gqx"/>
+                        <outlet property="yulanViewTop" destination="Rbl-fY-ggg" id="OgF-SE-3jT"/>
+                        <outlet property="yulanViewWidth" destination="QhV-Aj-bm2" id="mK6-C5-318"/>
+                        <outlet property="zhaoxiangButton" destination="CTt-Sw-JHY" id="bgU-5N-J8z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="29.23538230884558"/>
+        </scene>
+    </scenes>
+</document>
